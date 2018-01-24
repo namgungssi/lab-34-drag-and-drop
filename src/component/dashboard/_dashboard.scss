@@ -1,0 +1,29 @@
+@import 'vars';
+
+
+.dashboard {
+    margin: auto;
+    width: 90%;
+
+    h1 {
+        background-color: $color-light-gray;
+        border: 2px solid $color-green;
+        color: $color-green;
+        font-size: 2em;
+        height: auto;
+        margin-bottom: 1em;
+        padding: .2em;
+        text-align: center;
+    }
+}
+
+
+.category-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#main-form {
+    width: 500px;
+}

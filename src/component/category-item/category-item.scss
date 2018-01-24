@@ -1,0 +1,30 @@
+@import 'vars';
+
+.category-item {
+  margin: auto;
+  width: 300px;
+
+  button {
+    justify-content: flex-end;
+    background-color: $color-green;
+    color: $color-light-gray;
+    display: inline-block;
+    font-size: .8em;
+  }
+
+
+  h2 {
+    color: $moar-blue;
+    display: inline;
+    text-align: center;
+  }
+}
+
+
+.delete-button {
+  align-self: flex-end;
+  display: flex;
+  height: auto;
+  width: 1em;
+  padding: .2em;
+}

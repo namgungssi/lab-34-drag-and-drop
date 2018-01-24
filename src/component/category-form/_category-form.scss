@@ -1,0 +1,40 @@
+@import 'vars';
+
+
+.category-form {
+  background-color: $color-light-gray;
+  border: 2px solid $color-green;
+  display: flex;
+  flex-direction: column;
+  margin: .2em auto;
+  padding: .5em;
+  text-align: center;
+  width: 300px;
+
+  input {
+    border: 1px solid $color-green;
+    display: inline-flex;
+    margin: .3em;
+  }
+
+
+  .type-input {
+    width: 40%
+  }
+
+
+  .amount-input {
+    text-align: center;
+    width: 3em;
+  }
+
+
+  button {
+    background-color: $color-green;
+    border-radius: 10px;
+    color: $color-light-gray;
+    margin: auto;
+    padding: .5em;
+    width: auto;
+  }
+}
