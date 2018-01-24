@@ -1,8 +1,8 @@
 {
-  "name": "drag and drop",
+  "name": "lab-34-drag-and-drop",
   "version": "1.0.0",
   "description": "401 Labs",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "devDependencies": {
     "enzyme": "^3.2.0",
     "enzyme-adapter-react-16": "^1.1.0",
