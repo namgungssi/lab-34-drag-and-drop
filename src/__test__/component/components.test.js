@@ -1,5 +1,5 @@
 import React from 'react';
-import Enzyme, {simulate, mount, shallow} from 'enzyme';
+import Enzyme from 'enzyme';
 import sinon from 'sinon';
 import CategoryForm from '../../component/category-form';
 import ExpenseForm from '../../component/expense-form';

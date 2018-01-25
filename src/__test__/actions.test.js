@@ -1,5 +1,5 @@
 import React from 'react';
-import Enzyme, {simulate, mount, shallow} from 'enzyme';
+import Enzyme, from 'enzyme';
 import uuid from 'uuid/v1';
 import {create, update, destroy} from '../action/category';
 
