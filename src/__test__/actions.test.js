@@ -9,7 +9,7 @@ import {create as createExpense,
   destroy as destroyExpense} from '../action/expense';
 
 
-  describe('test Category actions', () => {
+  describe('test category actions', () => {
     test('category add returns correct type and payload', ()=> {
 
       let category = {name: 'food', budget: '500'};
