@@ -48,7 +48,7 @@ import {create as createExpense,
   describe('test expense actions', () => {
 
     let dogID = uuid();
-    let myExpense = {name: 'sports', cost: '200', id: uuid(), categoryID: catID};
+    let myExpense = {name: 'sports', cost: '200', id: uuid(), categoryID: dogID};
 
     test('expense add returns correct type and payload', ()=> {
 

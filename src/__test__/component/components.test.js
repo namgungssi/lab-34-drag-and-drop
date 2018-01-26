@@ -8,7 +8,7 @@ import ExpenseForm from '../../component/expense-form';
 
 describe('<CategoryForm/>', () => {
   test('add a new category', () => {
-    const wrapper = shallow(<CategoryForm />);
+    const wrapper = (<CategoryForm />);
 
     let name = "groceries";
     let budget = "100";
