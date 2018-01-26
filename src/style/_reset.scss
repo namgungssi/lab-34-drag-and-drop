@@ -1,3 +1,6 @@
+@import 'vars';
+
+
 * {
   position: static;
   background: white;
@@ -8,7 +11,6 @@
   margin: 0;
   padding: 0;
   font-size: 3em;
-  font-family: $font-main;
   border: none;
   box-sizing: border-box;
 }
@@ -19,6 +21,3 @@ input, textarea {
     border: none;
   }
 }
-
-
-@import 'vars';
