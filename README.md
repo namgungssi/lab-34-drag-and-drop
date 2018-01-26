@@ -1,5 +1,4 @@
 401 JS --  Lab 34 Budget Tracker
-===
 
 ## start : npm start watch
 ## test : npm test
