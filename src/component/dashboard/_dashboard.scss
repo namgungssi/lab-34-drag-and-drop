@@ -1,11 +1,13 @@
 @import 'vars';
 
-
 .dashboard {
     margin: auto;
     width: 90%;
 
+
     h1 {
+        background-color: $color-light-gray;
+        border: 2px solid white;
         color: black;
         font-size: 2em;
         height: auto;
@@ -15,12 +17,10 @@
     }
 }
 
-
 .category-wrapper {
     display: flex;
     justify-content: space-between;
 }
-
 
 #main-form {
     width: 500px;
